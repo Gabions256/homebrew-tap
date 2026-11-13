@@ -1,24 +1,24 @@
 class Tracemark < Formula
   desc "Local code intelligence: every symbol, call and import with its evidence"
   homepage "https://github.com/Gabions256/tracemark"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Gabions256/tracemark/releases/download/v0.2.0/tracemark-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "91273390e3874dcbe7593ccac51c5d290f6430410535e40eaad7abe3d4aafea3"
+      url "https://github.com/Gabions256/tracemark/releases/download/v0.3.0/tracemark-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a76f936a8d9168e29de34c2a7482c1a609f122fc62ff55ea9e4f8b676043e6bc"
     end
     on_intel do
-      url "https://github.com/Gabions256/tracemark/releases/download/v0.2.0/tracemark-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "eb338f8ddbf6f35a04a308cbf4e6b923d548a2fd139af16ea6f7eab66c02ed9f"
+      url "https://github.com/Gabions256/tracemark/releases/download/v0.3.0/tracemark-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "da766b460c924c532a87b8734ea0aac073ded9df25486f775f053dbbf4129c0a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Gabions256/tracemark/releases/download/v0.2.0/tracemark-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "36558f93c6b3ba3aa32b90836df082cdf96e49a83d05c2a8077768252524fa32"
+      url "https://github.com/Gabions256/tracemark/releases/download/v0.3.0/tracemark-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "de86fc17b3381257cd3f7e5a054c7d4a10873e30393970219d82fe5fa61db9ae"
     end
   end
 
