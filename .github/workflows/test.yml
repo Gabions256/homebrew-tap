@@ -20,6 +20,6 @@ jobs:
         if: runner.os == 'Linux'
         run: echo "/home/linuxbrew/.linuxbrew/bin" >> "$GITHUB_PATH"
       - run: brew tap gabions256/tap "$GITHUB_WORKSPACE"
-      - run: brew install gabions256/tap/codeatlas
-      - run: brew test gabions256/tap/codeatlas
-      - run: atlas --version
+      - run: brew install gabions256/tap/tracemark
+      - run: brew test gabions256/tap/tracemark
+      - run: tracemark --version
